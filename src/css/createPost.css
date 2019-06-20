@@ -1,0 +1,9 @@
+.create-post h2{
+    text-align: center;
+    margin: 0 0 1rem 0
+}
+
+.create-post button{
+    margin: 1rem auto;
+    display: block;
+}

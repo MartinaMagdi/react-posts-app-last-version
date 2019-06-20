@@ -1,0 +1,12 @@
+.single-post h2 p,
+.center {
+    text-align: center;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.single-post .edit-btn{
+    position: unset;
+}

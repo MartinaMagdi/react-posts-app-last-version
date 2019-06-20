@@ -1,0 +1,25 @@
+.home h2{
+    text-align: center;
+}
+
+.single-post{
+    margin: 1rem;
+}
+
+.single-post .card{
+    height: 22rem;
+}
+
+.single-post button{
+    margin: 0 0.5rem;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.single-post .btn-danger{
+    right: 6.5rem
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
