@@ -32,8 +32,8 @@ export default class Home extends Component {
                                 <Card.Text>
                                     {post.body}
                                 </Card.Text>
-                                <Button variant="primary" onClick={() => this.viewPost(post.id)}>View</Button>
-                                <Link to={`/post/${post.id}`}><Button variant="danger" onClick={() => this.deletePost(post.id)}>Delete</Button></Link>
+                                <Link to={`/post/${post.id}`}><Button variant="primary">View</Button></Link>
+                                <Button variant="danger" onClick={() => this.deletePost(post.id)}>Delete</Button>
                             </Card.Body>
                         </Card>
                     </Col >
