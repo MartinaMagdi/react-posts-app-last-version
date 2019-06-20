@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Col, Row, Card, Button, Container, Alert } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import '../css/home.css'
 
 export default class Home extends Component {
@@ -32,7 +33,7 @@ export default class Home extends Component {
                                     {post.body}
                                 </Card.Text>
                                 <Button variant="primary" onClick={() => this.viewPost(post.id)}>View</Button>
-                                <Button variant="danger" onClick={() => this.deletePost(post.id)}>Delete</Button>
+                                <Link to={`/post/${post.id}`}><Button variant="danger" onClick={() => this.deletePost(post.id)}>Delete</Button></Link>
                             </Card.Body>
                         </Card>
                     </Col >
